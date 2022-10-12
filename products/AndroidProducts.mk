@@ -18,6 +18,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
+    $(LOCAL_DIR)/hotdogb/aospa_hotdogb.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/hotdog/aospa_hotdog.mk \
@@ -35,6 +36,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
     aospa_hotdog-userdebug \
+    aospa_hotdogb-userdebug \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
