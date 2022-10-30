@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
@@ -35,9 +31,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
-# Paranoid Packages
+# FaceUnlock
 PRODUCT_PACKAGES += \
-    ParanoidPapers
+    ParanoidSense
 
 # Paranoid Packages (OTA)
 ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
@@ -69,10 +65,6 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti_vendor \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
-
-# Telephony - AOSP
-PRODUCT_PACKAGES += \
-    Stk
 
 # Telephony - CLO
 PRODUCT_PACKAGES += \
